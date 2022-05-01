@@ -10,6 +10,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  h1 {
+    a {
+      @apply text-red-900;
+    }
+  }
 }
 
 .footer {
